@@ -1,0 +1,156 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Secciones */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+/* Ajuste de imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    
+}
+#familia h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+/* Sección de Inicio */
+#inicio img {
+    width: 80%;
+    max-width: 600px;
+}
+
+#familia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Sección de Miembros de la Familia */
+.miembro {
+    flex: 1 1 300px; /* Tamaño flexible con mínimo de 300px */
+    max-width: 350px; /* Máximo para que no crezcan demasiado */
+    text-align: center;
+}
+
+.miembro img {
+    width: 100%;
+    height: 400px; /* Altura fija para uniformidad */
+    object-fit: cover; /* Mantiene la proporción y recorta el exceso */
+    border-radius: 15px;
+}
+
+/* Galería */
+.galeria {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+}
+.galeria h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+
+.galeria-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+}
+.galeria img {
+    flex: 1 1 300px;
+    max-width: 350px;
+    height: 400px; /* Ajusta todas a la misma altura */
+    object-fit: cover; /* Evita distorsión y mantiene el enfoque */
+    border-radius: 15px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Pie de página */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 20px;
+}
